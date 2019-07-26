@@ -49,7 +49,7 @@ Continue working on your notebook from the last lab. Do the following:
 
 ## Day 3
 
-Today we will ...
+Today we will (1) determine the best version of the classifier that we can find, (2) fit the classifier, (3) load it in the web app, (4) classify the tweets.
 
 
 
