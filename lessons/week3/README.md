@@ -36,7 +36,18 @@ Today we will ...
 
 Today we will ...
 
-
+1. Review the previous lab. Each team will summarize their results. I will provide comments on your projects thus far.
+2. Compare the accuracy of LogisticRegression with two additional classifiers:
+  - [MLPClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html)
+  - [RandomForestClassifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+3. Try different parameters of these two classifiers and record how they affect accuracy:
+  - MLP: 
+    - hidden_layer_sizes: (10, ), (50, ), (100, ), (200, )
+    - alpha: .001, .0001, .00001
+  - RandomForest:
+    - min_samples_leaf: 1, 3, 5
+    - n_estimators: 100, 200, 300 
+4. Complete the tensorflow notebook in W3L2.ipynb
 <br>
 
 ## Day 3
