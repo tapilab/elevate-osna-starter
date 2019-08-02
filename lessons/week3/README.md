@@ -53,3 +53,8 @@ Today we will ...
 ## Day 3
 
 Today we will ...
+
+1. Go over the results of the previous lab.
+2. Add tensorflow to our `train` method and compare with other approaches. 
+3. Make a draft of the poster.
+4. Make a draft of the talk slides.
