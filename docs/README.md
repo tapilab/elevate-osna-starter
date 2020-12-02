@@ -4,4 +4,15 @@ The website for this repository is viewable at: https://tapilab.github.io/elevat
 
 Here is a tutorial on the Markdown syntax: https://guides.github.com/features/mastering-markdown/
 
-I added the reveal.js submodule by `git submodule add https://github.com/hakimel/reveal.js reveal.js`
+To get reveal.js setup, you should from this directory do the following:
+
+```
+git submodule add https://github.com/hakimel/reveal.js reveal.js
+cd reveal.js
+git checkout
+git checkout 94d98ff
+cd ..
+git add reveal.js
+git commit -m 'reval'
+git push
+```
